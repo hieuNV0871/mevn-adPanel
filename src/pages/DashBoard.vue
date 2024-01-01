@@ -82,10 +82,10 @@
       <tbody>
         <tr v-for="(item, index) in resultHotProduct" :key="index" :class="{ 'bg-gray-100': index % 2 === 0, 'bg-white': index % 2 !== 0 }">
           <td class="px-6 py-4 whitespace-nowrap">{{ index + 1 }}</td>
-          <td class="px-6 py-4 whitespace-nowrap">{{ item.detail[0].name }}</td>
-          <td class="px-6 py-4 whitespace-nowrap">{{ item.detail[0].sku }}</td>
-          <td class="px-6 py-4 whitespace-nowrap">{{ item.detail[0].price.toLocaleString() }} VNĐ</td>
-          <td class="px-6 py-4 whitespace-nowrap">{{ item.totalQuantity }}</td>
+          <td class="px-6 py-4 whitespace-nowrap">{{ item.detail[0]?.name }}</td>
+          <td class="px-6 py-4 whitespace-nowrap">{{ item.detail[0]?.sku }}</td>
+          <td class="px-6 py-4 whitespace-nowrap">{{ item.detail[0]?.price.toLocaleString() }} VNĐ</td>
+          <td class="px-6 py-4 whitespace-nowrap">{{ item?.totalQuantity }}</td>
         </tr>
       </tbody>
     </table>
