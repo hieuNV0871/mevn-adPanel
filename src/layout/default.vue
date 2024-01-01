@@ -66,7 +66,7 @@ const refIsRead = ref(null)
 const router = useRouter();
 
 import { io } from "socket.io-client";
-const socket = io("http://localhost:5000");
+const socket = io("https://mevn-api-xh9x.onrender.com");
 const userId = auth.authUser._id
 socket.on("connect", () => {
   console.log(socket.id); 
