@@ -13,7 +13,6 @@
     "@ckeditor/ckeditor5-build-classic": "^40.1.0",
     "@ckeditor/ckeditor5-vue": "^5.1.0",
     "@ckeditor/vite-plugin-ckeditor5": "^0.1.3",
-    "@rollup/rollup-win32-ia32-msvc": "^4.6.1",
     "@vuepic/vue-datepicker": "^7.4.0",
     "@vueuse/core": "^10.6.1",
     "ant-design-vue": "^4.0.7",
