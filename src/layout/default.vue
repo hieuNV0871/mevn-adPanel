@@ -8,7 +8,7 @@
         </a-menu-item>
         
         <a-menu-item>
-          <span @click="handleLogout">Dang xuat</span>
+          <span @click="handleLogout">Logout</span>
         </a-menu-item>
       </a-menu>
     </a-layout-sider>
